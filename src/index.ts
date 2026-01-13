@@ -1,0 +1,1 @@
+export { generateExcuse } from './excuseGenerator'

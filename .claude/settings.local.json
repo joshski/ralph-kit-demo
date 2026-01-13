@@ -3,7 +3,9 @@
     "allow": [
       "Bash(bd onboard:*)",
       "Bash(bd create:*)",
-      "Bash(bd ready:*)"
+      "Bash(bd ready:*)",
+      "Bash(bd sync:*)",
+      "Bash(git push:*)"
     ]
   }
 }
