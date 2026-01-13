@@ -5,3 +5,11 @@
 - Function generates creative randomized excuses by combining intro phrases, subjects, actions, and events
 - Added comprehensive tests in `src/excuseGenerator.test.ts` (4 tests, 100% coverage)
 - Created `src/index.ts` to export the function as the main module entry point
+
+## 2026-01-13: Created web UI using Bun (ralph-kit-demo-wdn)
+- Created `src/server.ts` using Bun's built-in HTTP server
+- Serves a styled HTML page at root path with excuse generator UI
+- Added `/api/excuse` endpoint that returns JSON with generated excuses
+- Added tests in `src/server.test.ts` (3 tests, 100% coverage)
+- Added `start` script to package.json: `bun run src/server.ts`
+- Run with `bun run start` and visit http://localhost:3000
