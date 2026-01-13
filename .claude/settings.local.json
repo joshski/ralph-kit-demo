@@ -5,7 +5,10 @@
       "Bash(bd create:*)",
       "Bash(bd ready:*)",
       "Bash(bd sync:*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd silly issues to beads backlog\n\n- Coffee machine keeps judging my code\n- Rubber duck refuses to help debug\n- Semicolons staging a rebellion\n- 404 error has existential crisis\n- Tabs and spaces in cold war\n- TODO comments achieving immortality\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git pull:*)"
     ]
   }
 }
